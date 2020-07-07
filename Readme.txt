@@ -1,1 +1,1 @@
-read me
+In this folder, I recorded notes and codes for learning assembly language in the summer vacation of 2020.
