@@ -6,7 +6,7 @@
 assume cs:code
 
 a segment
-		db 1,2,3,4,5,6,7,8
+		db 1,2,3,4,5,6,7,8			; db --> d-data	b-byte 字节型数据	1Byte
 a ends
 
 b segment
