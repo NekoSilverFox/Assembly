@@ -26,13 +26,13 @@ start:			mov ax, datasg
 
 loopRow:		push cx
 				mov cx, 3
-				mov di, 0
+				mov bx, 0
 
-		loopCol:		mov al, ds:[si + di]
+		loopCol:		mov al, ds:[si + bx]
 						and al, 11011111B		; 注意！读取的是一个字母，所以是一字节！！用字节型寄存器！！！
-						mov ds:[si + di]
-						inc di
-						loopCol
+						mov ds:[si + bx], al
+						inc bx
+						loop loopCol
 
 				pop cx
 				add  si, 16
