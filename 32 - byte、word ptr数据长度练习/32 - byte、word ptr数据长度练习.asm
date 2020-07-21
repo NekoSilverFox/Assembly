@@ -21,13 +21,30 @@ datasg ends
 ;===================================
 
 codesg segment
-start:			mov ax, stack
+start:			mov ax, stacksg
 				mov ss, ax
 				mov sp, 32
 
-				mov ax, data
+				mov ax, datasg
 				mov ds, ax
 
+				mov bx, 0
+				mov si, 0
+
+				mov word ptr ds:[bx + 12 + si], 38
+
+				add si, 2
+				add word ptr ds:[bx + 12 + si], 70
+
+
+				add si, 2
+				mov byte ptr ds:[bx + 12 + si], 'V'
+
+				inc si
+				mov byte ptr ds:[bx + 12 + si], 'A'
+
+				inc si
+				mov byte ptr ds:[bx + 12 +si], 'X'
 codesg ends
 
 end start
