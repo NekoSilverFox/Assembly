@@ -64,16 +64,16 @@ pushData:	push ds:[bx]	; 把welcome to masm! 都送入到栈中
 		mov es, ax
 		mov bx, 160 * 12 + 64
 		
-
 		; 处理每一行的数据
+		mov cx, 3	; 如果忘了这个会出现很神奇的效果！！！
 loop3:		mov dx, cx
-				mov cx, 16
+		mov cx, 16
 		oneRow:		pop es:[bx]
 				mov ah, ds:[di]
 				mov es:[bx + 1], ah
 				add bx, 2
 				loop oneRow
-		dec dx
+
 		inc di
 		add bx, 160 - 32
 		mov cx, dx
