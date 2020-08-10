@@ -1,4 +1,6 @@
-﻿In this folder, I recorded notes and codes for learning assembly language in the summer vacation of 2020. :P
+##Assembly##
+
+In this folder, I recorded notes and codes for learning assembly language in the summer vacation of 2020. :P
 
 注：部分代码及练习基于王爽《汇编语言》第三版，具体题目及要求请见书中
 -----------------------------------------------------------------------------------------------------------------------
