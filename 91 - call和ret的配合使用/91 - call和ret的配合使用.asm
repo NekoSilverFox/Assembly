@@ -26,7 +26,7 @@ assume cs:codesg
 codesg segment
 start:		mov ax, 1	; ax == 1
 		mov cx, 3	; cx == 3
-		call s		
+		call s				; 《《====== 注意这里是call s，是段内短转移，所以只push ip	
 		mov bx, ax	; bx == 8
 		mov ax, 4c00h
 		int 21h
