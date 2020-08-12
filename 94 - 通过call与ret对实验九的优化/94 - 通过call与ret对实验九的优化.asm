@@ -23,7 +23,11 @@ stacksg ends
 ; =================================================================
 
 codesg segment
-main:		call set_reg
+main:		mov ax, stacksg		; <<===== 注意：call要用到栈所以要提前设置好栈段，不能放在set_reg里了，否则会导致程序出错
+		mov ss, ax
+		mov sp, 32
+
+		call set_reg
 		call mov_data
 
 		mov ax, 4c00h
@@ -31,11 +35,7 @@ main:		call set_reg
 
 	; ------------------------------------------
 	set_reg:	mov ax, datasg
-			mov ds, ax
-
-			mov ax, stacksg
-			mov ss, ax
-			mov sp, 32
+			mov ds, ax	
 			ret
 
 
@@ -71,5 +71,6 @@ codesg ends
 end main
 
 ; =================================================================;
+
 
 
