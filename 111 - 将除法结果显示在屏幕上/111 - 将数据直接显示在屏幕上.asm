@@ -70,7 +70,7 @@ start:			mov ax, datasg
 			mov cx, dx
 			jcxz return_div
 			add cx, 30H
-			mov ch, 00001010B
+			mov ch, 00001010B	; <--- 注意，这里要对文字的属性进行设置，否则按内存中原来的进行设置，可能导致无法显示的问题
 			mov es:[si], cx
 			;mov word ptr es:[si + 1], 00000100B
 			sub si, 2
