@@ -84,6 +84,9 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 
 编程小技巧：
+将ds与si配合使用
+将es与di配合使用	<--- 虽然es和si可以配合使用，但是介于后面涉及的课程及指令，不建议使用 ds:di,、es:si ！！
+
 在对程序分段时，如果遇到寄存器冲突，可以先将冲突的寄存器push到栈中，需要时再pop出来
 如果合理的使用db, dw, dd ==> 看操作的寄存器，比如：操作的寄存器为16位，则应该用dw
 如果参数过多，要处理的数据使用较多的寄存器，那么可以先将数据进行结构化处理再进行编写代码，这样可以更好的处理数据
