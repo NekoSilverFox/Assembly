@@ -29,7 +29,7 @@ start:		mov ax, stack
 		call set_IVT
 
 		mov ax, 2233H
-		mov bx, 1
+		mov bx, 0
 		div bx
 
 		mov ax, 4C00H
@@ -73,8 +73,8 @@ start:		mov ax, stack
 				
 				mov ax, 0
 				mov ds, ax
-				mov word ptr ds:[0 * 4 + 0], 0H		; IP
-				mov word ptr ds:[0 * 4 + 2], 0200H	; CS
+				mov word ptr ds:[0 * 4 + 0], 0200H		; IP 别再设反了！！！！
+				mov word ptr ds:[0 * 4 + 2], 0H			; CS
 
 				pop ds
 				pop ax
@@ -118,8 +118,9 @@ start:		mov ax, stack
 				pop ds
 				pop cx
 				pop ax
+				ret
 
-			_do0Ret:	ret
+			_do0Ret:	nop	; <<==== 要指向结束的下一个字节！！！！
 		
 
 code ends
