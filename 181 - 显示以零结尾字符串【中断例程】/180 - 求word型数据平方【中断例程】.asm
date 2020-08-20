@@ -1,0 +1,112 @@
+; 180 - 求word型数据平方【中断例程】
+; =================================================================
+
+; 编写、安装中断7ch的中断例程
+
+; 程序说明请详见 P254
+; 功能：将一个全是字母，以零结尾的字符串，转化为大写
+; 参数：ds:si 指向字符串的首地址
+; 应用举例
+
+; =================================================================
+assume cs:code, ss:stack, ds:data
+; =================================================================
+data segment
+		db	'conversation',0
+data ends
+; =================================================================
+stack segment stack
+		db	128 dup (0)
+stack ends
+; =================================================================
+code segment
+start:		mov ax, stack
+		mov ss, ax
+		mov sp, 128
+
+		; capital 安装程序
+		call local_sqr
+
+		; 设置终断向量表
+		call set_IVT
+
+		mov ax, data
+		mov ds, ax
+		mov si, 0
+		
+		int 7ch
+
+		mov ax, 4C00H
+		int 21H
+
+
+
+		; -------------------------------
+		; 安装capital
+		local_sqr:	push ax
+				push cx
+				push ds
+				push es
+				push di
+				push si
+
+				mov ax, cs
+				mov ds, ax
+				mov si, OFFSET capital
+
+				mov ax, 0
+				mov es, ax
+				mov di, 200H
+
+				mov cx, OFFSET _endCapital - OFFSET capital
+				cld
+				rep movsb
+
+				pop si
+				pop di
+				pop es
+				pop ds
+				pop cx
+				pop ax
+				ret
+
+
+		; -------------------------------
+		; 设置终断向量表
+		set_IVT:	
+				mov ax, 0
+				mov es, ax
+				mov word ptr es:[7ch * 4 + 0], 0200H	; IP
+				mov word ptr es:[7ch * 4 + 2], 0000H	; CS
+
+				ret
+
+
+		; -------------------------------
+		; 功能：将一个全是字母，以零结尾的字符串，转化为大写
+		; 参数：ds:si 指向字符串的首地
+		capital:	push ax
+				push cx
+				push si
+
+				mov cx, 0
+
+		_loopCapital:	mov cl, ds:[si]
+				jcxz _iretCapital
+				and cl, 11011111B
+				mov ds:[si], cl
+				inc si
+				jmp _loopCapital
+
+
+
+		_iretCapital:	pop si
+				pop cx
+				pop ax
+				iret		; <--- 使用 iret 来顺便实现 popf
+		_endCapital:	nop	; <<==== 要指向结束的下一个字节！！！！
+		
+
+code ends
+
+end start
