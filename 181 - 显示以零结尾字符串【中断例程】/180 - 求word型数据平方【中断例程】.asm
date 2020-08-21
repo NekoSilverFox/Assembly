@@ -1,12 +1,12 @@
-; 187 - ÏÔÊ¾0½áÎ²µÄ×Ö·û´®£¬²¢ÊµÏÖÀàËÆint 10h¹¦ÄÜ¡¾ÖÐ¶ÏÀý³Ì¡¿
+; 181 - æ˜¾ç¤ºä»¥é›¶ç»“å°¾å­—ç¬¦ä¸²ã€ä¸­æ–­ä¾‹ç¨‹ã€‘
 ; =================================================================
 
-; ±àÐ´¡¢°²×°ÖÐ¶Ï7chµÄÖÐ¶ÏÀý³Ì
+; ç¼–å†™ã€å®‰è£…ä¸­æ–­7chçš„ä¸­æ–­ä¾‹ç¨‹
 
-; ³ÌÐòËµÃ÷ÇëÏê¼û P254
-; ¹¦ÄÜ£º½«Ò»¸öÈ«ÊÇ×ÖÄ¸£¬ÒÔÁã½áÎ²µÄ×Ö·û´®£¬×ª»¯Îª´óÐ´
-; ²ÎÊý£ºds:si Ö¸Ïò×Ö·û´®µÄÊ×µØÖ·
-; Ó¦ÓÃ¾ÙÀý
+; ç¨‹åºè¯´æ˜Žè¯·è¯¦è§ P254
+; åŠŸèƒ½ï¼šå°†ä¸€ä¸ªå…¨æ˜¯å­—æ¯ï¼Œä»¥é›¶ç»“å°¾çš„å­—ç¬¦ä¸²ï¼Œè½¬åŒ–ä¸ºå¤§å†™
+; å‚æ•°ï¼šds:si æŒ‡å‘å­—ç¬¦ä¸²çš„é¦–åœ°å€
+; åº”ç”¨ä¸¾ä¾‹
 
 ; =================================================================
 assume cs:code, ss:stack, ds:data
@@ -24,10 +24,10 @@ start:		mov ax, stack
 		mov ss, ax
 		mov sp, 128
 
-		; capital °²×°³ÌÐò
+		; capital å®‰è£…ç¨‹åº
 		call local_sqr
 
-		; ÉèÖÃÖÕ¶ÏÏòÁ¿±í
+		; è®¾ç½®ç»ˆæ–­å‘é‡è¡¨
 		call set_IVT
 
 		mov ax, data
@@ -42,7 +42,7 @@ start:		mov ax, stack
 
 
 		; -------------------------------
-		; °²×°capital
+		; å®‰è£…capital
 		local_sqr:	push ax
 				push cx
 				push ds
@@ -72,7 +72,7 @@ start:		mov ax, stack
 
 
 		; -------------------------------
-		; ÉèÖÃÖÕ¶ÏÏòÁ¿±í
+		; è®¾ç½®ç»ˆæ–­å‘é‡è¡¨
 		set_IVT:	
 				mov ax, 0
 				mov es, ax
@@ -83,8 +83,8 @@ start:		mov ax, stack
 
 
 		; -------------------------------
-		; ¹¦ÄÜ£º½«Ò»¸öÈ«ÊÇ×ÖÄ¸£¬ÒÔÁã½áÎ²µÄ×Ö·û´®£¬×ª»¯Îª´óÐ´
-		; ²ÎÊý£ºds:si Ö¸Ïò×Ö·û´®µÄÊ×µØ
+		; åŠŸèƒ½ï¼šå°†ä¸€ä¸ªå…¨æ˜¯å­—æ¯ï¼Œä»¥é›¶ç»“å°¾çš„å­—ç¬¦ä¸²ï¼Œè½¬åŒ–ä¸ºå¤§å†™
+		; å‚æ•°ï¼šds:si æŒ‡å‘å­—ç¬¦ä¸²çš„é¦–åœ°
 		capital:	push ax
 				push cx
 				push si
@@ -103,8 +103,8 @@ start:		mov ax, stack
 		_iretCapital:	pop si
 				pop cx
 				pop ax
-				iret		; <--- Ê¹ÓÃ iret À´Ë³±ãÊµÏÖ popf
-		_endCapital:	nop	; <<==== ÒªÖ¸Ïò½áÊøµÄÏÂÒ»¸ö×Ö½Ú£¡£¡£¡£¡
+				iret		; <--- ä½¿ç”¨ iret æ¥é¡ºä¾¿å®žçŽ° popf
+		_endCapital:	nop	; <<==== è¦æŒ‡å‘ç»“æŸçš„ä¸‹ä¸€ä¸ªå­—èŠ‚ï¼ï¼ï¼ï¼
 		
 
 code ends
