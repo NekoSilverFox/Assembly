@@ -1,0 +1,2 @@
+C:\Users\mi\Desktop\Programma\Assembly\300 - VS中C++嵌套汇编代码\Debug\300 - VS中C++嵌套汇编代码.exe
+C:\Users\mi\Desktop\Programma\Assembly\300 - VS中C++嵌套汇编代码\Debug\300 - VS中C++嵌套汇编代码.pdb
