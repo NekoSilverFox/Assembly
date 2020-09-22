@@ -2,9 +2,7 @@
 		.code			;代码段      ！64 位没有 .model 宏指令，无法设置内存模型和生成的代码风格！
 main proc				;main函数开始
 
-	mov rax, 120
-	add rax, 34
-	sub rax, 130
+	and [rbx], dl
 
 	ret
 
