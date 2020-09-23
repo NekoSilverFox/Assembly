@@ -1,0 +1,4 @@
+C:\Users\mi\Desktop\Programma\Assembly\301 - 在VS中创建64位汇编项目\x64\Debug\301 - 在VS中创建64位汇编项目.exe
+C:\Users\mi\Desktop\Programma\Assembly\301 - 在VS中创建64位汇编项目\x64\Debug\301 - 在VS中创建64位汇编项目.pdb
+C:\Users\mi\Desktop\Programma\Assembly\301 - 在VS中创建64位汇编项目 - 副本\x64\Debug\301 - 在VS中创建64位汇编项目.exe
+C:\Users\mi\Desktop\Programma\Assembly\301 - 在VS中创建64位汇编项目 - 副本\x64\Debug\301 - 在VS中创建64位汇编项目.pdb
