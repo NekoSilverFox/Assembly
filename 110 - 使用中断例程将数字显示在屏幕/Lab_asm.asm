@@ -2,10 +2,10 @@
    .MODEL TINY
    .STACK 100h
    .DATA
-        arr1 dw 1199,1181,1170,1164, 56, 44, 36, 24, 17, 10
-        arr2 dw 11, 9, 10, 8, 8, 22, 12, 6, 1, 5
+        arr1 dw 18199,11871,1170,1164, 956, 44, 36, 24, 17, 10, 0
+        arr2 db 11, 9, 10, 8, 8, 22, 12, 6, 1, 5, 0
         arr3 dw 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
-        arr4 dw 10 dup (1234)
+        arr4 dw 10 dup ('A')
         arr5 dw '0','1','2','3','4'
    .CODE
 
@@ -13,26 +13,18 @@ start:
    mov    ax,@Data
    mov    ds,ax
    
-   ;mov al, 0
-   ;mov ah, 2
-   ;mov dx, arr5[3]
-   ;int 21h
-   ;mov cx, 10
-   ;call loopDivArr
+   mov cx, 10
+   mov bp, 2
+   mov si, offset arr1[0]
+   call loopShowArr
    
-   ;mov ax, arr1[1]
-   ;call printNum
+
+   
+   
+   ;call inputNum
    ;call printSpace
-  
-   ;mov ax, offset arr1[0]
-   ;mov si, ax 
-   ;mov cx, 2
-   ;call loopShowArr
-   
-   call inputNum
-   call printSpace
-   call printNum
-   
+   ;call printNum
+   ;call printSpace 
    
    mov ax, 4c00h
    int 21h
@@ -67,33 +59,6 @@ start:
                            pop cx
                            ret
                            
-    ; =============================================
-    ; Loop div array
-    ; Times    --> cx
-    ; Dividend --> arr1
-    ; Divisor  --> arr2
-    ; Answer   --> arr3
-    loopDivArr:      push ax
-                     push bx
-                     push cx
-                     push dx
-                     push bp
-                     
-                     mov bp, 0
-        _loopDivArr:     mov dx, 0
-                         mov ax, arr1[bp]
-                         mov bx, arr2[bp]
-                         div bx
-                         mov arr3[bp], ax
-                         inc bp
-                         loop _loopDivArr
-                         
-                     pop bp
-                     pop dx
-                     pop cx
-                     pop bx
-                     pop ax
-                     ret  
    
     ; =============================================
     ; Print space on screen
@@ -110,21 +75,33 @@ start:
                      ret
                      
     ; =============================================
-    ; Loop show array
+    ; Loop show array (16bit - dw)
     ; Times    --> cx
+    ; Adress for array(First element)  --> si
     ; Arrar    --> ds:si
-    loopShowArr:     push ax
+    loopShowArr:     ;push ax
                      push cx
                      push si
-                     mov si, 0
-          _loopShowArr:  mov ax, arr1[si]
-                         call printNum
+                     push bp
+                     
+          _loopShowArr:  cmp bp, 2
+                         je _next2
+                         cmp bp, 1
+                         mov ah, 0
+                         mov al, [si]
+                         je _next1
+                         
+          _next2:        mov ax, [si]
+          _next1:        call printNum
                          call printSpace
-                         add si, 1
-                         loop _loopShowArr    
+                         add si, bp
+                         loop _loopShowArr
+                         mov ax, 0
+                     
+                     pop bp
                      pop si
                      pop cx
-                     pop ax
+                     ;pop ax
                      rep
                       
     ; =============================================
@@ -137,18 +114,17 @@ start:
                  push bp
                       
                  mov bx, 10
-                 mov bp, 0
+                 mov cx, 0   ; count
              _jmpDiv:     mov dx, 0
                           div bx
-                          cmp dx, 0
-                          je _printStack
                           add dx, 30h
                           push dx                     
-                          inc bp
+                          inc cx
+                          cmp ax, 0
+                          je _inStack
                           jmp _jmpDiv 
          
-         _printStack:     mov cx, bp
-                          mov ax, 0
+         _inStack:        mov ax, 0
                           mov ah, 2
                           
              _loopPrintStack:      pop dx
@@ -161,6 +137,9 @@ start:
                  pop bx
                  pop ax
                  ret
+
+
+
 
     ; =============================================
     ; Function:  loop div, use numbers in arr2 div arr1, tha answer put in arr3
@@ -176,7 +155,7 @@ start:
                  mov bp, 0
         _div_32: mov dx, 0
                  mov ax, arr1[bp]
-                 mov bx, arr2[bp]
+                 ;mov bx, arr2[bp]
                  div bx
                  mov arr3[bp], ax
                  inc bp
@@ -187,4 +166,32 @@ start:
                  pop bx
                  pop ax
                  rep
+                 
+    ; =============================================
+    ; Loop div array
+    ; Times    --> cx
+    ; Dividend --> arr1
+    ; Divisor  --> arr2
+    ; Answer   --> arr3
+    loopDivArr:      push ax
+                     push bx
+                     push cx
+                     push dx
+                     push bp
+                     
+                     mov bp, 0
+        _loopDivArr:     mov dx, 0
+                         mov ax, arr1[bp]
+                         ; mov bx, arr2[bp]
+                         div bx
+                         mov arr3[bp], ax
+                         inc bp
+                         loop _loopDivArr
+
+                     pop bp
+                     pop dx
+                     pop cx
+                     pop bx
+                     pop ax
+                     ret
 END start
