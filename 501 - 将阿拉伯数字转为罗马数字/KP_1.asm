@@ -6,14 +6,8 @@
        arr2 db "       X  XX XXX  XL   L  LX LXXLXXX  XC"
        arr3 db "       C  CC CCC  CD   D  DC DCCDCCC  CM"
        arr4 db "       M  MM MMM                        "
-       
-   .CODE
 
-start:
-   mov    ax,@Data
-   mov    ds,ax
-   
-   ; mov ax, 2687
+   mInt2Roman MACRO
    loopRun: call inputNum
             cmp ax, 1000
             jnb _notPrintNum
@@ -21,11 +15,22 @@ start:
        _notPrintNum:    call printTab 
             call intToRoman
             call printEnter
-            jmp loopRun
-     
+            jmp loopRun   
+   endm
+       
+   .CODE
+; ------------------------------------------------------------------------------
+start:
+   mov    ax,@Data
+   mov    ds,ax
+   
+   mInt2Roman
+
+   ; mov ax, 2687   
    mov ax, 4c00h
    int 21h
-   
+; ------------------------------------------------------------------------------  
+ 
    ; =============================================
    ; Run: Print the 4 Byte (in array) on screen, with out `space`
    ;      Min value: 0     Max value: 3999
