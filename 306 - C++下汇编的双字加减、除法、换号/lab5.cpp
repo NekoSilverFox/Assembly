@@ -421,6 +421,8 @@ int main()
 	circularShift();
 	printLine();
 
+	std::cout << "\033[34m 4 5 6 7 8 9 Реализовано с помощью двух 16-битных регистров\033[0m" << std::endl << std::endl << std::endl;
+
 	DDIncremental();
 	printLine();
 
