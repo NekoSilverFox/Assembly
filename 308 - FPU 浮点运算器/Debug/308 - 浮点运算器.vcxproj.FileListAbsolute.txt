@@ -1,0 +1,2 @@
+C:\Users\mi\Desktop\Programma\Assembly\308 - 浮点运算器\Debug\308 - 浮点运算器.exe
+C:\Users\mi\Desktop\Programma\Assembly\308 - 浮点运算器\Debug\308 - 浮点运算器.pdb
