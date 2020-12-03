@@ -3,10 +3,8 @@
 #include <conio.h>
 #include <float.h>
 
-void main()
+void commFADD()
 {
-    system("chcp 65001 && cls");
-
     float a, b, c;
 
     std::cout << "Enter 3 (float) number:\n";
@@ -41,6 +39,35 @@ void main()
         fstp a
     }
 
+    std::cout << a << std::endl << std::endl;
+}
+
+
+void commFDIV()
+{
+    float a = 5;
+    float b = 0;
+    int ctrl = 0x027B;  // 0000 0010 0111 1011
+
+    std::cout << a << "¡Â" << b << " = ";
+    __asm
+    {
+        finit
+        fldcw ctrl
+        fld a
+        fld b
+        fdiv
+        fstp a
+    }
 
     std::cout << a << std::endl << std::endl;
+}
+
+void main()
+{
+    system("chcp 65001 && cls");
+
+    //commFADD();
+    std::cout << "==================================" << std::endl;
+    commFDIV();
 }
