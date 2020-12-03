@@ -49,11 +49,17 @@ void commFDIV()
     float b = 0;
     int ctrl = 0x027B;  // 0000 0010 0111 1011
 
-    std::cout << a << "¡Â" << b << " = ";
+    std::cout << a << " /  " << b << " = ";
+    //short dd;
     __asm
     {
         finit
-        fldcw ctrl
+        fstcw ctrl
+
+        and ctrl, 0xffb  // 0000 1111e 1111e 1011b
+
+        fldcw ctrl // ÆÁ±Î¸¡µãÒì³£ - §¡§ß§à§Þ§Ñ§Ý§Ú§ñ §á§Ý§Ñ§Ó§Ñ§ð§ë§Ö§Û §ä§à§é§Ü§Ú §ë§Ú§ä§Ñ
+
         fld a
         fld b
         fdiv
@@ -69,5 +75,6 @@ void main()
 
     //commFADD();
     std::cout << "==================================" << std::endl;
+    std::cout << ">>> Div on 0 :" << std::endl;
     commFDIV();
 }
