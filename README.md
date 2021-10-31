@@ -24,36 +24,54 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 ---
 
-1 - 2	基础
+1 - 2		基础
 
 
 
-3 - 17	基于loop指令的代码及练习
+3 - 17		基于loop指令的代码及练习
+
+
+
 18 - 20	【预留空位】loop指令预留空位
 
 
 
 21 - 27	and和or指令
+
+
+
 28 - 30	【预留空位】and和or指令
 
 
 
 31 - 32	byte ptr 字节型数据 和 word ptr 字型数据
+
+
+
 33 - 35	【预留空位】
 
 
 
 36 - 40	div除法操作
+
+
+
 41 - 45	div指令【预留空位】
 
 
 
 46 - 47	寻址方式在结构化数据访问中的应用
+
+
+
 48 - 50	【预留空位】
 
 
 
 51 	offset操作符
+
+
+
 52 - 55	【预留空位】
 
 
@@ -63,21 +81,25 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 
 66	jcxz条件转移指令
+
 67 - 69	【预留空位】
 
 
 
 70	LOOP循环指令
+
 71 - 74	【预留空位】
 
 
 
 74 - 77	向屏幕彩色输出【实验9】
+
 78 - 80	【预留空位】
 
 
 
 82 - 83	ret、retf指令
+
 84 - 85	【预留空位】
 
 
@@ -87,6 +109,7 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 
 91 - 98	call指令与ret的联合应用
+
 99 - 100	【预留空位】
 
 
@@ -100,16 +123,19 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 
 103 - 106	利用子程序的对字符串进行大小写转换
+
 106 - 110【预留空位】
 
 
 
 111 - 117	设计一简化版（整理内存段中的数据、进行乘除法、将数值转化为对应的ASCII码）
+
 118 - 119	【预留空位】
 
 
 
 120 - 126	初步显示字符串
+
 127 - 129	【预留空位】
 
 
