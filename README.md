@@ -1,20 +1,29 @@
-╔═══╗───────────╔╗─╔╗
-║╔═╗║───────────║║─║║
-║║─║╠══╦══╦══╦╗╔╣╚═╣║╔╗─╔╗
-║╚═╝║══╣══╣║═╣╚╝║╔╗║║║║─║║
-║╔═╗╠══╠══║║═╣║║║╚╝║╚╣╚═╝║
-╚╝─╚╩══╩══╩══╩╩╩╩══╩═╩═╗╔╝
-─────────────────────╔═╝║
-─────────────────────╚══╝
+<p align="center">
+ <img width="100px" src="https://github.com/NekoSilverFox/NekoSilverfox/blob/master/icons/silverfox.svg" align="center" alt="Assembly" />
+ <h1 align="center">Assembly</h2>
+ <p align="center"><b>⚡ 亲手编写基于王爽老师《汇编语言》的300个汇编程序例程</b></p>
+</p>
+
+<div align=center>
+
+ [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
+
+<div align=left>
+
+---
 
 In this folder, I recorded notes and codes for learning assembly language in the summer vacation of 2020. :P
 
 注：部分代码及练习基于王爽《汇编语言》第三版，具体题目及要求请见书中
------------------------------------------------------------------------------------------------------------------------
+
+
 
 文件夹编号说明：
+
 其中，为了避免文件夹命名及编号混乱：【预留空位】指的是为以后复习或者相关新项目所预留出来的编号。
-=============================
+
+
+
 1 - 2	基础
 
 =============================
