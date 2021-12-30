@@ -1,0 +1,85 @@
+﻿  main.cpp
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,72): error C2440: “初始化”: 无法从“const char [1]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,22): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,72): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,72): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,29): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,72): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,34): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,72): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(6,60): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,6): error C2440: “初始化”: 无法从“const char [1]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,6): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,9): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,9): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,13): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,18): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,18): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,24): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,29): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,29): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,33): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,33): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,38): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,38): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,44): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,44): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,51): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(8,51): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,6): error C2440: “初始化”: 无法从“const char [1]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,6): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,9): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,9): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,13): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,18): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,18): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,24): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,29): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,29): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,33): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,33): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,38): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,38): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,44): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,44): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,51): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(9,51): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,6): error C2440: “初始化”: 无法从“const char [1]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,6): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,9): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,9): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,13): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,18): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,18): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,24): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,29): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,29): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,33): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,33): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,38): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,38): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,44): error C2440: “初始化”: 无法从“const char [5]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,44): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,51): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(10,51): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,6): error C2440: “初始化”: 无法从“const char [1]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,6): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,9): error C2440: “初始化”: 无法从“const char [2]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,9): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,13): error C2440: “初始化”: 无法从“const char [3]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,18): error C2440: “初始化”: 无法从“const char [4]”转换为“char *”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(11,18): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(15,27): error C2065: “num”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(16,27): error C2065: “num”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(17,27): error C2065: “num”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(18,27): error C2065: “num”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(20,21): error C2440: “return”: 无法从“std::string”转换为“int”
+C:\Users\mi\Desktop\Programma\Assembly\302 - 输入十进制转罗马数字\main.cpp(20,16): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符

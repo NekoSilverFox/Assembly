@@ -1,0 +1,254 @@
+﻿  lab4.cpp
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(42,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(59,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(62,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(62,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(62,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(62,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(63,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(63,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(63,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(63,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(63,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(64,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(64,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(64,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(64,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(64,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(65,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(65,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(65,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(65,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(65,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(66,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(66,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(66,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(66,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(66,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(68,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(68,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(68,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(68,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(68,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(69,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(69,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(69,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(69,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(69,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(70,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(70,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(70,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(70,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(70,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(71,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(71,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(71,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(71,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(71,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(72,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(72,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(72,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(72,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(72,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(74,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(74,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(74,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(74,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(74,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(75,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(75,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(75,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(75,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(75,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(76,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(76,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(76,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(76,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(76,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(77,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(77,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(77,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(77,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(77,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(78,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(78,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(78,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(78,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(78,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(80,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(80,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(80,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(80,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(80,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(81,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(81,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(81,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(81,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(81,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(82,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(82,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(82,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(82,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(82,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(83,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(83,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(83,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(83,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(83,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(84,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(84,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(84,7): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(84,7): error C2065: “ch”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(84,11): error C2065: “cl”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(86,3): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(86,3): error C2065: “add”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\lab4.cpp(86,9): fatal error C1003: 错误计数超过 100；正在停止编译
+  Source.cpp
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(19,3): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(21,4): error C2065: “_emit”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(21,10): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(22,4): error C2146: 语法错误: 缺少“;”(在标识符“_emit”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(22,4): error C2065: “_emit”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(22,10): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(23,4): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(23,4): error C2065: “mov”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(23,8): error C2146: 语法错误: 缺少“;”(在标识符“hiword”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(23,17): error C2065: “edx”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(24,4): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(24,4): error C2065: “mov”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(24,8): error C2146: 语法错误: 缺少“;”(在标识符“loword”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(24,17): error C2065: “eax”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(25,3): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(35,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(35,8): error C2065: “lea”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(35,12): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(35,12): error C2065: “ebx”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(37,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(37,8): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(37,8): error C2065: “mov”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(37,12): error C2146: 语法错误: 缺少“;”(在标识符“edi”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(37,12): error C2065: “edi”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,8): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,8): error C2065: “mov”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,12): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,12): error C2065: “esi”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,22): error C2143: 语法错误: 缺少“]”(在“+”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,22): error C3481: “ebx”: 未找到 lambda 捕获变量
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(39,22): error C3260: “+”: 跳过 lambda 主体之前的意外标记
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(41,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(43,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(45,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(47,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(49,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(51,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(53,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(55,2): error C2065: “cmp”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(55,6): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(55,6): error C2065: “ecx”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(56,2): error C2146: 语法错误: 缺少“;”(在标识符“ja”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(56,2): error C2065: “ja”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(56,5): error C2146: 语法错误: 缺少“;”(在标识符“loop1”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(56,5): error C2065: “loop1”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(57,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(59,7): error C2143: 语法错误: 缺少“;”(在“std::cout”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(70,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(70,8): error C2065: “lea”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(70,12): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(70,12): error C2065: “ebx”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(72,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(73,2): error C2065: “mov”: 未声明的标识符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(73,6): error C2146: 语法错误: 缺少“)”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(79,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(81,6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(81,4): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(82,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(82,14): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(82,12): error C2146: 语法错误: 缺少“;”(在标识符“ch”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(83,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(84,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(85,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(86,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(87,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(88,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(89,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(90,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(91,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(95,12): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(95,12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(95,7): error C2371: “std::cout”: 重定义；不同的基类型
+E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\iostream(34): message : 参见“std::cout”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(132,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(132,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(132,12): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(133,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(136,6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(136,2): error C2374: “t”: 重定义；多次初始化
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(81): message : 参见“t”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(136,4): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(137,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(137,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(137,8): error C2086: “int add”: 重定义
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(82): message : 参见“add”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(137,12): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(138,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(139,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(140,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(141,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(142,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(143,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(144,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(145,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(146,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(149,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(149,2): error C2371: “t_end”: 重定义；不同的基类型
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(94): message : 参见“t_end”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(149,51): error C2440: “初始化”: 无法从“std::chrono::steady_clock::time_point”转换为“int”
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(149,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(150,12): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(150,12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(150,7): error C2371: “std::cout”: 重定义；不同的基类型
+E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\iostream(34): message : 参见“std::cout”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(186,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(186,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(186,8): error C2086: “int mov”: 重定义
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(132): message : 参见“mov”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(186,12): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(188,6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(188,2): error C2374: “t”: 重定义；多次初始化
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(81): message : 参见“t”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(188,4): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(189,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(189,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(189,8): error C2086: “int add”: 重定义
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(82): message : 参见“add”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(189,12): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(190,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(191,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(192,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(193,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(194,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(195,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(196,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(197,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(198,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(200,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(200,2): error C2371: “t_end”: 重定义；不同的基类型
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(94): message : 参见“t_end”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(200,51): error C2440: “初始化”: 无法从“std::chrono::steady_clock::time_point”转换为“int”
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(200,8): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(201,12): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(201,12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(201,7): error C2371: “std::cout”: 重定义；不同的基类型
+E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\iostream(34): message : 参见“std::cout”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(346,12): error C2143: 语法错误: 缺少“;”(在“<<”的前面)
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(346,12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(346,7): error C2371: “std::cout”: 重定义；不同的基类型
+E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\iostream(34): message : 参见“std::cout”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(347,16): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(347,2): error C2365: “system”: 重定义；以前的定义是“函数”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1218): message : 参见“system”的声明
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(350,1): error C2059: 语法错误:“}”
+C:\Users\mi\Desktop\Programma\Assembly\306 - LAB4\lab4\Source.cpp(350,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Source0.cpp
+  正在生成代码...
