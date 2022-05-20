@@ -16,8 +16,14 @@ In this folder, I recorded notes and codes for learning assembly language in the
 
 注：部分代码及练习基于王爽《汇编语言》第三版，具体题目及要求请见书中
 
-
-
+</br>
+ 
+**笔记请详见：**
+ 
+[这是 Word 格式的笔记呀](https://github.com/NekoSilverFox/Assembly/blob/master/%E3%80%90%E7%AC%94%E8%AE%B0%E3%80%91%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80.docx)
+ 
+</br>
+  
 文件夹编号说明：
 
 其中，为了避免文件夹命名及编号混乱：【预留空位】指的是为以后复习或者相关新项目所预留出来的编号。
